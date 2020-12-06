@@ -1,9 +1,6 @@
 const About = require("../models/about");
 const { errorHandler } = require("../helpers/db.ErrorHandeler");
 
-
-
-
 exports.about = (req, res) => {
 
     About.exec((err, about) => {

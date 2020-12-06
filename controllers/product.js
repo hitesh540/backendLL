@@ -39,7 +39,6 @@ exports.create = (req, res) => {
             name,
             description,
             address,
-
             // imageUrl,
 
             // price,
@@ -133,7 +132,6 @@ exports.update = (req, res) => {
             });
         }
 
-        
 
         let product = req.product;
         product = _.extend(product, fields);
